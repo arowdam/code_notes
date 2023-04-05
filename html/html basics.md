@@ -13,24 +13,46 @@
 
 <br>
 
-Double tag elements
+### __Structural elements__
+
+* `<!DOCTYPE html>`
+    * declares document as an HTML 5 one
+* `<html></html>`
+    * contains all other elements
+* `<head></head>`
+    * holds meta data
+* `<body></body>`
+    * holds display info
+
+
+### __Double tag elements__
 
 `<h1> </h1>`
-    <!--this is the header tag->
+* header tag-> (gets pulled by search engines)
 
 `<p> </p>` 
-    <!--this is the paragraph tag-->
+* paragraph tag-> always starts a new line, and gets a margin
+    * defaults to giving info on a single line. Even if you type multiple
 
 `<a> </a>` 
-    <!--this is a link tag-->
+* link tag
 
-Single tag elements
+`<pre> </pre>`
+* shows preformatted text
+    * If you [enter] multiple lines in a `<pre>`, they'll be preserved
+
+### __Single tag elements__
+
 `<br>` 
-    <!--this is a line break tag-->
-    <!--can be placed mid text tag-->
+* line break tag
+    * can be placed mid text tag
 
 `<img>`
-    <!--this is an image tag-->
+* image tag
+
+`<hr>`
+* horizontal rule-> separates content
+    * can be mid line like `<br>`
 
 <br>
 
@@ -52,6 +74,31 @@ Single tag elements
     * alt: shows text if the image doesn't load
     * width/height control the img size
     * `<img src="" alt=""...>`
+* note -> links can be local (peep above) or absolute (web links)
+
+`<p></p>`
+* style: inline css 
+* `<p style="color:blue;"></p>`
+* title: mouse over title
+* `<p title=""></p>`
+
+`<html></html>`
+* lang: sets file language
+* `<html lang="en"></html>` 
+    * sets to English
+
+### Note: 
+    You don't need to quote attribute values. But it is convention, you can single quote, double quote. Even no quote if you're crazy, though you can't have a space if that's the case.
+
+* `<a href="pic/this">` 
+* `<a href='pic/this'>`
+* `<a href=pic/this>`
+* ~~`<a href=pic this>`~~ 
+    * no space with no quotes
 
 
+## _Styles_
+    this is a tiny list of style attributes
 
+* `style="font-size:64px;"`
+    * toss this in a <h>, <p>, etc.

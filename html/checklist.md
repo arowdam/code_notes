@@ -14,12 +14,12 @@ HTML Tutorial
 
 - [x] ~~HOME~~
 - [x] ~~Introduction~~
-- [x] Editors
-- [x] Basic
-- [x] Elements
-- [ ] Attributes
-- [ ] Headings
-- [ ] Paragraphs
+- [x] ~~Editors~~
+- [x] ~~Basic~~
+- [x] ~~Elements~~
+- [x] ~~Attributes~~
+- [x] ~~Headings~~
+- [x] ~~Paragraphs~~
 - [ ] Styles
 - [ ] Formatting
 - [ ] Quotations
