@@ -21,7 +21,7 @@ Double tag elements
 <p> </p> 
     <!--this is the paragraph tag-->
 
-<a href= ""> </a> 
+<a> </a> 
     <!--this is a link tag-->
 ```
 
@@ -40,5 +40,13 @@ Single tag elements
 ## __Element Attributes__
 
 <br>
+
+* attributes are always declared in the start tag.
+
+
+`<a></a>`     
+* href: to show a hyperlink
+* `<a href=""></a>`
+
 
 
