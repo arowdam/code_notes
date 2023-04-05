@@ -4,7 +4,7 @@
 
 ## Page Structure
 
-![alt text](img\html_page_structure.png "The HTML page structure")
+<img src="img/html_page_structure.png" alt= "The HTML page structure">
 * peep the boxes 
 
 <br>
