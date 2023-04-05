@@ -7,9 +7,12 @@ HTML Path
 
 <br>
 
+### HTML exercises
+17/88
+
 HTML Tutorial
 -
-
+<hr>
 <br>
 
 - [x] ~~HOME~~
@@ -20,7 +23,7 @@ HTML Tutorial
 - [x] ~~Attributes~~
 - [x] ~~Headings~~
 - [x] ~~Paragraphs~~
-- [ ] Styles
+- [x] ~~Styles~~
 - [ ] Formatting
 - [ ] Quotations
 - [ ] Comments

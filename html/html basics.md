@@ -7,7 +7,8 @@
 <img src="img/html_page_structure.png" alt= "The HTML page structure">
 * peep the boxes 
 
-<br>
+<hr>
+<br><br><br>
 
 ## __Elements__
 
@@ -51,10 +52,10 @@
 * image tag
 
 `<hr>`
-* horizontal rule-> separates content
+* horizontal rule-> separates content with a literal line
     * can be mid line like `<br>`
-
-<br>
+<hr>
+<br><br><br>
 
 ## __Element Attributes__
 
@@ -96,9 +97,27 @@
 * ~~`<a href=pic this>`~~ 
     * no space with no quotes
 
+<hr>
+<br><br><br>
 
 ## _Styles_
-    this is a tiny list of style attributes
+    this is a tiny list of inline style attributes
 
-* `style="font-size:64px;"`
-    * toss this in a <h>, <p>, etc.
+### Syntax
+
+* `<tag_name style= "property:value;">`
+
+<hr>
+
+### Properties
+* Fonts
+    * `style="font-family:font_name;"`
+* Font size
+    * `style="font-size:00px;"`
+* Background color
+    * `style="background-color: color_name;"`
+* Text color
+    * `style="color:color_name;"`
+* text alignment
+    * `style="text-align:center;"`
+    * can also be right/left etc.
