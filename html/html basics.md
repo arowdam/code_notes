@@ -14,26 +14,23 @@
 <br>
 
 Double tag elements
-```
-<h1> </h1> 
+
+`<h1> </h1>`
     <!--this is the header tag->
 
-<p> </p> 
+`<p> </p>` 
     <!--this is the paragraph tag-->
 
-<a> </a> 
+`<a> </a>` 
     <!--this is a link tag-->
-```
 
 Single tag elements
-```
-<br> 
+`<br>` 
     <!--this is a line break tag-->
     <!--can be placed mid text tag-->
 
-<img src="" alt="" width="" height="">
+`<img>`
     <!--this is an image tag-->
-```
 
 <br>
 
@@ -47,6 +44,14 @@ Single tag elements
 `<a></a>`     
 * href: to show a hyperlink
 * `<a href=""></a>`
+
+`<img>`
+* src: links pic to element
+* `<img src="">`
+* also: alt="" width="", height=""
+    * alt: shows text if the image doesn't load
+    * width/height control the img size
+    * `<img src="" alt=""...>`
 
 
 
