@@ -1,5 +1,9 @@
 HTML Path
 = 
+04/05/2023
+    
+    via w3schools
+
 
 <br>
 
@@ -8,11 +12,11 @@ HTML Tutorial
 
 <br>
 
-- [x] HOME
-- [x] Introduction
-- [ ] Editors
-- [ ] Basic
-- [ ] Elements
+- [x] ~~HOME~~
+- [x] ~~Introduction~~
+- [x] Editors
+- [x] Basic
+- [x] Elements
 - [ ] Attributes
 - [ ] Headings
 - [ ] Paragraphs
