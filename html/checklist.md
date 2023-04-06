@@ -10,26 +10,30 @@ HTML Path
 ### HTML exercises
 * <del>17/88</del>
 * ~~26/88~~
-* 28/88
+* ~~28/88~~
+* 32/88
 
 HTML Tutorial
 -
 <hr>
 <br>
 
-- [x] ~~HOME~~
-- [x] ~~Introduction~~
-- [x] ~~Editors~~
-- [x] ~~Basic~~
-- [x] ~~Elements~~
-- [x] ~~Attributes~~
-- [x] ~~Headings~~
-- [x] ~~Paragraphs~~
-- [x] ~~Styles~~
-- [x] <del>Formatting</del>
-- [x] ~~Quotations~~
-- [x] ~~Comments~~
-- [ ] Colors
+- [x] HOME
+- [x] Introduction
+- [x] Editors
+- [x] Basic
+- [x] Elements
+- [x] Attributes
+- [x] Headings
+- [x] Paragraphs
+- [x] Styles
+- [x] Formatting
+- [x] Quotations
+- [x] Comments
+- [x] Colors
+    - [x] RGB
+    - [x] HEX
+    - [x] HSL
 - [ ] CSS
 - [ ] Links
 - [ ] Images

@@ -133,7 +133,7 @@
 * `<html lang="en"></html>` 
     * sets to English
 
-### Note: 
+### **Note:** 
     You don't need to quote attribute values. But it is convention, you can single quote, double quote. Even no quote if you're crazy, though you can't have a space if that's the case.
 
 * `<a href="pic/this">` 
@@ -145,10 +145,12 @@
 <hr>
 <br><br><br>
 
-## _Styles_
+## _Styles_    
+<br>
+
     this is a tiny list of inline style attributes
 
-<br>
+
 
 ### Syntax
 
@@ -168,6 +170,48 @@
 * text alignment
     * `style="text-align:center;"`
     * can also be right/left etc.
+
+### _Colors_
+    Supports: color names, or RGB, HEX, HSL, RGBA, or HSLA values.
+
+#### Attributes
+* background color
+    * `style="background-color:blue;"`
+* text color
+    * `style="color:blue;"`
+* border color
+    * `style="border: 2px solid blue;"`
+
+#### RGB(A)
+* syntax: ###, ###, ###
+* r- red, g- green, b- blue
+    * on a scale of 0-255
+* set the 3 values equal for gray
+* the a stands for alpha which controls opacity
+
+#### HEX
+* syntax: #rrggbb
+* rr- red, gg- green, bb- blue
+    * starts at 00 -> 00-09, 0a-0f -> 10
+    * after 9f -> a0-a9, aa-af -> b0
+    * ends at ff
+* set values equal for gray
+
+#### HSL(A)
+* syntax: hs1(hue, saturation, lightness)
+* h- hue, s- saturation, l- lightness
+    * h = degree on color wheel -> 0-360
+    * s = percent (gray-color) -> 0-100%
+    * l = percent (black-white) -> 0-100%
+* the a stands for alpha which controls opacity
+
+
+#### **Note:**
+* color selection
+    * blue -> color name
+    * 0, 0, 255 -> RGB
+    * 0000ff -> HEX
+    * 240°, 100, 50 -> HSL
 
 <hr>
 <br><br><br>
