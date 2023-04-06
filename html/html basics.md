@@ -54,6 +54,51 @@
 `<hr>`
 * horizontal rule-> separates content with a literal line
     * can be mid line like `<br>`
+
+### <b>Text formatting tags</b>
+    all of these are double tagged
+
+* bold: `<b>`
+    * <b> it's bold </b>
+* important text: `<strong>`
+    * <strong> is bold but important </strong>
+* italics: `<i>`
+    * <i> italics </i>
+* emphasized text: `<em>`
+    * <em> screen readers pronounce this was oomph </em>
+* marked text: `<mark>`
+    * <mark> highlit </mark>
+* smaller text: `<small>`
+    * <small> did you set the belt to wumbo? </small>
+* deleted text: `<del>`
+    * <del> struck through </del>
+* inserted text: `<ins>`
+    * <ins> underlined </ins>
+* subscript text: `<sub>`
+    * <sub> the reddit tag </sub>
+* superscript text: `<sup>`
+    * <sup> the skater tag </sup>
+
+### __Citation and Quotation tags__
+
+* block quotes: `<blockquote>`
+    * <blockquote> just toss a ton of words into this block so that we can have a block of a quote </blockquote>
+* short quotes: `<q>`
+    * <q> i like trains </q>
+* abbreviations: `<abbr>`
+    * <p> the <abbr title="doctor"> dr.</abbr> was tired.</p>
+* contact info: `<address>`
+    * <address>
+        Written by Damisi <br>
+        Email at: email.gmail.com <br>
+        this is italics <br>
+        Finland
+    </address>
+* define title: `<cite>`
+    * <p> <cite> the alchemist </cite> by some one. At some time </p>
+* bi-directional override: `<bdo>`
+    * <bdo dir="rtl"> This can only be beaten by racecar! </bdo>
+
 <hr>
 <br><br><br>
 
@@ -110,13 +155,13 @@
 <hr>
 
 ### Properties
-* Fonts
+* fonts
     * `style="font-family:font_name;"`
-* Font size
+* font size
     * `style="font-size:00px;"`
-* Background color
+* background color
     * `style="background-color: color_name;"`
-* Text color
+* text color
     * `style="color:color_name;"`
 * text alignment
     * `style="text-align:center;"`
