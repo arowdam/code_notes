@@ -148,11 +148,13 @@
 ## _Styles_
     this is a tiny list of inline style attributes
 
+<br>
+
 ### Syntax
 
 * `<tag_name style= "property:value;">`
 
-<hr>
+
 
 ### Properties
 * fonts
@@ -166,3 +168,13 @@
 * text alignment
     * `style="text-align:center;"`
     * can also be right/left etc.
+
+<hr>
+<br><br><br>
+
+## Misc.
+
+<br>
+
+### Comment
+* `<!---->` : that's how you make one

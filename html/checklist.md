@@ -8,9 +8,9 @@ HTML Path
 <br>
 
 ### HTML exercises
-<del>17/88</del>
-
-26/88
+* <del>17/88</del>
+* ~~26/88~~
+* 28/88
 
 HTML Tutorial
 -
@@ -28,7 +28,7 @@ HTML Tutorial
 - [x] ~~Styles~~
 - [x] <del>Formatting</del>
 - [x] ~~Quotations~~
-- [ ] Comments
+- [x] ~~Comments~~
 - [ ] Colors
 - [ ] CSS
 - [ ] Links
