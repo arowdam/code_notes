@@ -15,7 +15,7 @@
 
 ## HTML Tutorial
 * ~~18/73~~
-* 19/73
+* 20/73
 <hr>
 <br>
 
@@ -37,6 +37,9 @@
     - [x] HSL
 - [x] CSS
 - [x] Links
+    - [x] Links 
+    - [x] Colors
+    - [x] Bookmarks
 - [ ] Images
 - [ ] Favicon
 - [ ] Page Title

@@ -149,6 +149,9 @@
 <br><br><br>
 
 ## **Links**
+
+### **Gen**
+
 * absolute path    
     * `<a href="https://website.com/"></a>`
 * relative path
@@ -183,6 +186,63 @@
 * link titles
     * `<a href= "https://www.website.com/" title="Open website">Website</a>`
     * gives extra info in the hover pop-up
+
+### **Link CSS**
+
+* Changing colors
+    * link (unvisited link) - not underlined
+    * visited - not underlined
+    * hover - underlined
+    * active - underlined
+
+            <style>
+                a:link{
+                    color:color_name;
+                    background-color:transparent;
+                    text-decoration:none;
+                }
+                a:visited{
+                    color:color_name;
+                    background-color:transparent;
+                    text-decoration:none;
+                }
+                a:hover{
+                    color:color_name;
+                    background-color:transparent;
+                    text-decoration:none;
+                }
+                a:active{
+                    color:color_name;
+                    background-color:transparent;
+                    text-decoration:none;
+                }
+            </style>
+
+* Button styling
+    * css 
+    
+            <style>
+                a:link, a:visited {
+                    background-color:color_name; 
+                        /*sets block color*/
+                    color:color_name; 
+                        /*sets block text color*/
+                    display:inline-block;
+                        /*displays list items horizontally (not vertically)*/
+                }
+                a:hover,a:active{
+                    background-color:color_name;
+                        /*changes block color when hovering over it*/
+                }
+            </style>
+
+### **Bookmarks or jump-to**
+* set id attribute to make bookmark
+    * `<h2 id="c2>Chapter 2</h>`
+* link to said header
+    * `<a href="#c4">To Chapter 2</a>`
+* link a bookmark to a different page
+    * `<a href="webpage.html#c4">To Chapter 2</a>`
 
 <br><br><br>
 <hr>
@@ -232,10 +292,10 @@
     * `border: 00px solid gray;`
 * margin -> space outside border
     * `margin: 00px;`
-    * follows a border property
 * padding -> space between text and border
-    * `padding: 00px;`
-    * follows a border property
+    * `padding: 00px 00px;`
+    * pads space above/below
+    * pads space left/right
 * text alignment
     * `text-align:center;`
     * can also be right/left etc.
