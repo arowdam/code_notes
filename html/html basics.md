@@ -154,6 +154,8 @@
 * relative path
     * `<a href="/folder/website.html"></a>`
 
+            Note: after opening an absolute path, the related pages can be linked relatively if they're stored in the same folder
+
 * target attributes
     * `<a href="https://www.website.com/" target="_[target_attribute]">link text</a>`
 
@@ -176,7 +178,11 @@
     * `<a href="mailto:email@email.com">contact [____]</a>`
     * the magic is in the 'mailto:'
 * button as a link
-    * d
+    * `<button onclick="document.location='default.asp'";>button name</button>`
+    * `onclick` is java script
+* link titles
+    * `<a href= "https://www.website.com/" title="Open website">Website</a>`
+    * gives extra info in the hover pop-up
 
 <br><br><br>
 <hr>

@@ -10,10 +10,12 @@
 * <del>17/88</del>
 * ~~26/88~~
 * ~~28/88~~
-* 32/88
+* ~~32/88~~
+* 33/88
 
 ## HTML Tutorial
-* 18/73
+* ~~18/73~~
+* 19/73
 <hr>
 <br>
 
@@ -34,7 +36,7 @@
     - [x] HEX
     - [x] HSL
 - [x] CSS
-- [ ] Links
+- [x] Links
 - [ ] Images
 - [ ] Favicon
 - [ ] Page Title
@@ -61,8 +63,7 @@
 
 <br><br>
 
-HTML Forms
--
+### HTML Forms
 
 <br>
 
@@ -75,8 +76,7 @@ HTML Forms
 
 <br> <br>
 
-HTML Graphics
-- 
+### HTML Graphics
 
 <br>
 
@@ -85,8 +85,7 @@ HTML Graphics
 
 <br><br>
 
-HTML Media
--
+### HTML Media
 
 <br>
 
@@ -98,8 +97,8 @@ HTML Media
 
 <br><br>
 
-HTML APIs
--
+### HTML APIs
+
 <br>
 
 - [ ] Geolocation
@@ -110,7 +109,7 @@ HTML APIs
 
 <br><br>
 
-HTML Examples
+### HTML Examples
 
 <br>
 
@@ -124,7 +123,7 @@ HTML Examples
 
 <br><br>
 
-HTML References
+### HTML References
 
 <br>
 
