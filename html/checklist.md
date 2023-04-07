@@ -1,5 +1,4 @@
-HTML Path
-= 
+# HTML Path
 04/05/2023
     
     via w3schools
@@ -13,8 +12,8 @@ HTML Path
 * ~~28/88~~
 * 32/88
 
-HTML Tutorial
--
+## HTML Tutorial
+* 18/73
 <hr>
 <br>
 
@@ -34,7 +33,7 @@ HTML Tutorial
     - [x] RGB
     - [x] HEX
     - [x] HSL
-- [ ] CSS
+- [x] CSS
 - [ ] Links
 - [ ] Images
 - [ ] Favicon

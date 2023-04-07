@@ -7,6 +7,7 @@
 <img src="img/html_page_structure.png" alt= "The HTML page structure">
 * peep the boxes 
 
+<br><br><br>
 <hr>
 <br><br><br>
 
@@ -99,6 +100,7 @@
 * bi-directional override: `<bdo>`
     * <bdo dir="rtl"> This can only be beaten by racecar! </bdo>
 
+<br><br><br>
 <hr>
 <br><br><br>
 
@@ -142,39 +144,106 @@
 * ~~`<a href=pic this>`~~ 
     * no space with no quotes
 
+<br><br><br>
 <hr>
 <br><br><br>
 
-## _Styles_    
+## **Links**
+* absolute path    
+    * `<a href="https://website.com/"></a>`
+* relative path
+    * `<a href="/folder/website.html"></a>`
+
+* target attributes
+    * `<a href="https://www.website.com/" target="_[target_attribute]">link text</a>`
+
+            target attributes:
+                * _self -> opens in current tab
+                * _blank -> opens in new tab
+                * _parent -> opens in parent frame
+                * _top -> opens in full body of window
+                    
+                    though to be honest... I don't know the difference between _self/_parent/_top
+
+* image as a link
+    * place `<img>` tag within `<a>` tags
+            
+            <a href="https://www.website.com/">
+                <img src="pic.png" alt="ex. pic">
+            </a>
+
+* link to email
+    * `<a href="mailto:email@email.com">contact [____]</a>`
+    * the magic is in the 'mailto:'
+* button as a link
+    * d
+
+<br><br><br>
+<hr>
+<br><br><br>
+
+## _Styles aka **CSS**_    
 <br>
 
-    this is a tiny list of inline style attributes
+
+### _Syntax_
+* inline
+    * within element tag
+            
+            `<tag_name style= "property:value;">`
+
+* internal
+    * within the `<head>` tag
+
+            <head>
+                <style>
+                    p{
+                        color:blue;
+                    }
+                </style>
+            </head>
+
+* external
+    * in an external .css file
+
+             p{
+                color:blue;
+            }
+        
+### _Link to external css_
+* place link in `<head>` tag
+* absolute path
+    * `<link rel="stylesheet" href="https://website.com /css/styles.css">`
+* relative path
+    * `<link rel="stylesheet" href="/css/styles.css">`
+    * **note:** if css file is in the same folder as the html file, the file name will suffice
 
 
-
-### Syntax
-
-* `<tag_name style= "property:value;">`
-
-
-
-### Properties
-* fonts
-    * `style="font-family:font_name;"`
-* font size
-    * `style="font-size:00px;"`
+### _Properties_
 * background color
-    * `style="background-color: color_name;"`
-* text color
-    * `style="color:color_name;"`
+    * `background-color: color_name;`
+* border
+    * `border: 00px solid gray;`
+* margin -> space outside border
+    * `margin: 00px;`
+    * follows a border property
+* padding -> space between text and border
+    * `padding: 00px;`
+    * follows a border property
 * text alignment
-    * `style="text-align:center;"`
+    * `text-align:center;`
     * can also be right/left etc.
+* text color
+    * `color:color_name;`
+* text fonts
+    * `font-family:font_name;`
+* text size
+    * `font-size:00px;`
 
 ### _Colors_
     Supports: color names, or RGB, HEX, HSL, RGBA, or HSLA values.
 
-#### Attributes
+#### _Attributes_
 * background color
     * `style="background-color:blue;"`
 * text color
@@ -182,14 +251,14 @@
 * border color
     * `style="border: 2px solid blue;"`
 
-#### RGB(A)
+#### _RGB(A)_
 * syntax: ###, ###, ###
 * r- red, g- green, b- blue
     * on a scale of 0-255
 * set the 3 values equal for gray
 * the a stands for alpha which controls opacity
 
-#### HEX
+#### _HEX_
 * syntax: #rrggbb
 * rr- red, gg- green, bb- blue
     * starts at 00 -> 00-09, 0a-0f -> 10
@@ -197,7 +266,7 @@
     * ends at ff
 * set values equal for gray
 
-#### HSL(A)
+#### _HSL(A)_
 * syntax: hs1(hue, saturation, lightness)
 * h- hue, s- saturation, l- lightness
     * h = degree on color wheel -> 0-360
@@ -213,12 +282,13 @@
     * 0000ff -> HEX
     * 240°, 100, 50 -> HSL
 
+<br><br><br>
 <hr>
 <br><br><br>
 
-## Misc.
+## **Misc**.
 
 <br>
 
-### Comment
+### **Comments**
 * `<!---->` : that's how you make one
