@@ -121,6 +121,13 @@
 * also: alt="" width="", height=""
     * alt: shows text if the image doesn't load
     * width/height control the img size
+            
+            note: if using width/height attributes, specs can be changed by a stylesheet. So if anything use inline style instead
+            
+            i.e.
+
+            style="width:00px;height:00px;"
+
     * `<img src="" alt=""...>`
 * note -> links can be local (peep above) or absolute (web links)
 
@@ -347,6 +354,76 @@
     * 0, 0, 255 -> RGB
     * 0000ff -> HEX
     * 240°, 100, 50 -> HSL
+
+<br><br><br>
+<hr>
+<br><br><br>
+
+## **`<Img>`**
+**Attributes**
+
+* width/height
+    * `height:00px;width:00px;`
+* Float images
+    * direct images to to 'float' to x side of the text (right/left/etc.)
+    * `float:left;`
+
+**Image maps**
+
+* add a `usemap="#.."` attribute
+* add a `<map name="">`
+
+* **shape types**
+    * `rect`- x,y, x,y
+    * <img src="img\img_sec\shape_rect.png" alt="rect shape"> 
+
+            <area shape="rect" 
+            coords="34,44,270,350" 
+            href="laptop.htm">
+
+            find opposite corners and rect tag fills the rest
+
+    * `circle`- x,y radius
+    * <img src="img\img_sec\shape_circ.png" alt="circle shape">
+
+            <area shape="circle"
+            coords="337,300, 44"
+            href="coffee.htm">
+
+            find center of circle and the radius
+
+    * `poly`- x,y, x,y x,y...
+    * <img src="img\img_sec\shape_poly.png">
+
+            <area shape="poly"
+            coords="140,121,181,116,204,160,204,222,191,270,140,329,85,355,58,352,37,322,40,259,103,161,128,147"
+            href="croissant.htm">
+
+            plot each and every point, and the poly shape fills it in
+
+    * `default`- the entire file in `<img>` tag
+
+            <img src="pic.png" alt="picture" usemap="#this_map">`
+            `<map name="this_map">
+                <area shape="rect" coords="0,0,100,100" alt="square" href="square.htm">
+            </map>
+    * javascript
+        * onclick
+            
+                within area tag, you can add the `onclick` attribute and set it to a javascript function.
+
+                <map name="map1">
+                    <area shape="default" href="pic.png" onclick="a_function()">
+                </map>
+
+                <script>
+                    function a_function() {
+                        alert("post click response")
+                    }
+
+                Or any other action
+
+
 
 <br><br><br>
 <hr>

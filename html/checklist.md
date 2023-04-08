@@ -11,11 +11,12 @@
 * ~~26/88~~
 * ~~28/88~~
 * ~~32/88~~
-* 33/88
+* ~~33/88~~
+* ~~41/88
 
 ## HTML Tutorial
 * ~~18/73~~
-* 20/73
+* 22/73
 <hr>
 <br>
 
@@ -41,6 +42,9 @@
     - [x] Colors
     - [x] Bookmarks
 - [ ] Images
+    - [x] Map
+    - [ ]Background Images
+    - [ ] Picture Element
 - [ ] Favicon
 - [ ] Page Title
 - [ ] Tables
