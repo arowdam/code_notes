@@ -423,7 +423,260 @@
 
                 Or any other action
 
+**Background images**
+  
+* setting background image (via css)
 
+        [element tag] {
+            background-image: url('img_location.png');
+        }
+
+            note: to cover whole page, set to body tag
+
+* related tags
+    * background-repeat
+        * by default, if the element is larger than the image, it'll repeat (either horizontally or vertically) till the space is filled.
+    * background-size
+        * cover -> fills the given element (open to repeating)
+        * 100% 100% -> stretches height and width to fill element
+    * background-attachment
+        * fixed -> coupled with a body tag you can have a set background image that doesn't leave the screen when scrolling
+
+            [tag naame] {
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+            }
+
+**`<picture >` element**
+
+* holds multiple image sources
+    * can be used to set the most suitable image for the device in regards to screen size or pixel density
+    * and worst case you drop an auto width and even an `<img>` tag
+
+            <picture>
+                <source media="(min-width: 001px)" srcset="img.png">
+                <source media="(min-width: 010px)" srcset="img2.png">
+                <source media="(min-width: 100px)" srcset="img3.png">
+                <img src="img4.png"> style="width:auto;">
+            </picture>
+    
+<br><br><br>
+<hr>
+<br><br><br>
+
+## **Tables**
+* code example
+
+<table>
+    <tr>
+        <th>column 1</th>
+        <th>column 2</th>
+        <th>column 3</th>
+    </tr>
+    <tr>
+        <td>rand data1</td>
+        <td>rand data2</td>
+        <td>rand data3</td>
+    </tr>
+    <tr>
+        <td>rand data4</td>
+        <td>rand data5</td>
+        <td>rand data6</td>
+    </tr>
+</table>
+    
+
+* code breakdown
+
+        <body>
+            <table>
+                <tr> /*stands for table row*/
+                    <th>column 1</th> /*stands for table header*/
+                    <th>column 2</th>
+                    <th>column 3</th>
+                </tr>
+                <tr>
+                    <td>rand data1</td> /*stands for table data*/
+                    <td>rand data2</td>
+                    <td>rand data3</td>
+                </tr>
+                <tr>
+                    <td>rand data1</td>
+                    <td>rand data2</td>
+                    <td>rand data3</td>
+                </tr>
+            </table>
+        </body>
+
+* extra tags within `<table>`
+    
+<style>
+    table, th, td {
+        border: 1px solid green;
+        border-collapse: collapse;
+        border-style: dotted;
+    }
+</style>
+
+<table style="width: 90%">
+    <tr>
+        <th>tag</th>
+        <th>desc.</th>
+    </tr>
+    <tr>
+        <td>caption</td>
+        <td>table caption</td>
+    </tr>
+    <tr>
+        <td>colgroup</td>
+        <td>specifies a group of column(s) for formatting</td>
+    </tr>
+    <tr>
+        <td>col</td>
+        <td>specifies properties for each column in a 'colgroup' element </td>
+    </tr>
+    <tr>
+        <td>thead</td>
+        <td>groups header content</td>
+    </tr>
+    <tr>
+        <td>tbody</td>
+        <td>groups body content</td>
+    </tr>
+    <tr>
+        <td>tfoot</td>
+        <td>groups footer content</td>
+    </tr>
+</table>
+
+**Borders**
+
+        table, th, td {
+            border: 1px solid [color_name];
+            border-collapse: collapse;
+        }
+            * first style sets border around said table and elements
+            * second style makes it so that their isn't a double border around said elements
+        th, td {
+            background-color: [color_name];
+            border-color: [color_name];
+            border-style: dotted;
+        }
+            * styles only effect header and data cells, not the table border
+            * first sets color within cells
+            * second sets the color of the border
+            * third can alter the style of the lines
+                * values
+                    * dotted / dashed / solid / double / groove / ridge / inset / outset / none / hidden
+        
+**Table sizes**
+
+    table {
+        width: 90%;
+        height: 200px;
+    }
+        * sets the height and width of the table.
+            * the same can be done to the individual th / td elements
+
+**Table headers**
+
+* horizontal headers
+<table>
+    <tr>
+        <th>HorHead1</th>
+        <th>HorHead2</th>
+        <th>HorHead3</th>
+    </tr>
+    <tr>
+        <td>rand data1</td>
+        <td>rand data2</td>
+        <td>rand data3</td>
+    </tr>
+    <tr>
+        <td>rand data4</td>
+        <td>rand data5</td>
+        <td>rand data6</td>
+    </tr>
+</table>
+
+* vertical headers
+<table>
+        <tr>
+            <th>HorHead1</th>
+            <td>rand data1</td>
+            <td>rand data2</td>
+        </tr>
+        <tr>
+            <th>HorHead2</th>
+            <td>rand data3</td>
+            <td>rand data4</td>
+        </tr>
+        <tr>
+            <th>HorHead3</th>
+            <td>rand data5</td>
+            <td>rand data6</td>
+        </tr>
+    </table>
+
+* alignment
+    * peep instyle by the second heaader
+<table>
+        <tr>
+            <th>HorHead1 and the jonts</th>
+            <td>rand data1</td>
+            <td>rand data2</td>
+        </tr>
+        <tr>
+            <th style="text-align:right;">HorHead2</th>
+            <td>rand data3</td>
+            <td>rand data4</td>
+        </tr>
+        <tr>
+            <th>HorHead3</th>
+            <td>rand data5</td>
+            <td>rand data6</td>
+        </tr>
+    </table>
+
+* multi columns
+    * via the colspan attribute
+<table>
+    <tr>
+        <th colspan="2">DoubleHorHead1</th>
+        <th>HorHead2</th>
+    </tr>
+    <tr>
+        <td>rand data1</td>
+        <td>rand data2</td>
+        <td>rand data3</td>
+    </tr>
+    <tr>
+        <td>rand data4</td>
+        <td>rand data5</td>
+        <td>rand data6</td>
+    </tr>
+</table>
+
+* table captions (via element)
+<table>
+    <caption>Table caption</caption>
+    <tr>
+        <th>HorHead1</th>
+        <th>HorHead2</th>
+        <th>HorHead3</th>
+    </tr>
+    <tr>
+        <td>rand data1</td>
+        <td>rand data2</td>
+        <td>rand data3</td>
+    </tr>
+    <tr>
+        <td>rand data4</td>
+        <td>rand data5</td>
+        <td>rand data6</td>
+    </tr>
+</table>
 
 <br><br><br>
 <hr>
@@ -435,3 +688,21 @@
 
 ### **Comments**
 * `<!---->` : that's how you make one
+
+### **Favicon**
+
+        <head>
+            <link rel="icon" type="image/x-icon" href="/img/favicon.png">
+        </head>
+
+* sets favicon, i.e. the image in the tab bar.
+    * supported image formats: ico/png/gif/jpeg/svg
+
+### **Page title**
+
+    <head>
+        <title>Title name</title>
+    </head>
+* sets title, i.e. the text in the tab bar
+    * important for being found by the search engine
+

@@ -12,11 +12,13 @@
 * ~~28/88~~
 * ~~32/88~~
 * ~~33/88~~
-* ~~41/88
+* ~~41/88~~
+* ~~47/88
 
 ## HTML Tutorial
 * ~~18/73~~
-* 22/73
+* ~~22/73~~
+* 29/73
 <hr>
 <br>
 
@@ -41,13 +43,21 @@
     - [x] Links 
     - [x] Colors
     - [x] Bookmarks
-- [ ] Images
+- [x] Images
     - [x] Map
-    - [ ]Background Images
-    - [ ] Picture Element
-- [ ] Favicon
-- [ ] Page Title
+    - [x]Background Images
+    - [x] Picture Element
+- [x] Favicon
+- [x] Page Title
 - [ ] Tables
+    - [x] Tables
+    - [x] Borders
+    - [x] Sizes
+    - [x] Headers
+    - [ ] Padding & Spacing
+    - [ ] Colspan & Rowspan 
+    - [ ] Table Styling
+    - [ ] Table Colgroup
 - [ ] Lists
 - [ ] Block & Inline
 - [ ] Classes
