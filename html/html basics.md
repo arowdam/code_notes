@@ -804,7 +804,79 @@
         </table>
     * to set a colgroup while leaving alone the initial columns, set a col span of the undesired amount, and leave it empty.
 
+<br><br><br>
+<hr>
+<br><br><br>
 
+## **Lists**
+
+* types
+    
+        <ul> -> unordered list
+        <ol> -> ordered list
+        <li> -> list item
+        <dl> -> description list
+        <dt> -> defines term in <dl>
+        <dd> -> describes term in <dl>
+
+**Unordered list**
+ <ul style="list-style-type:disc">
+  <li>Coffee</li>
+  <li>Tea</li>
+    <ul>
+        <li>Green tea</li>
+    </ul>
+  <li>Milk</li>
+</ul>
+
+* item markers 
+
+        <ul style="list-style-type:[item marker]">
+    * disc -> default
+    * circle -> circle
+    * square -> sqaure
+    * none -> nothing
+* horizontal lists
+    
+        li{float:left;}
+    * it's just that simple. It isn't. But it is.
+
+**Ordered list**
+
+<ol type="i" start="30">
+    <li>Tea</li>
+        <ol type="i">
+            <li>Green tea</li>
+        </ol>
+    <li>Milk</li>
+    <li>...</li>
+    <li>Coffee</li>
+</ol>
+
+* item markers
+
+        <ol type="[item marker]">
+
+        type="1" -> numbers (default)
+        type="A" -> uppercase letters
+        type="a" -> lowercase letters
+        type="I" -> uppercase roman numbers
+        type="i" -> lowercase roman numbers
+
+* set start point
+
+        <ol start="[start point]">
+
+        it's a number btw
+
+**Description list**
+
+<dl>
+    <dt>Tea</dt>
+    <dd>- a colorful hot drink</dd>
+    <dt>Coffee</dt>
+    <dd>- a dark bitter hot drink</dd>
+</dl>
 
 <br><br><br>
 <hr>

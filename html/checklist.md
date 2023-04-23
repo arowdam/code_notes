@@ -13,12 +13,16 @@
 * ~~32/88~~
 * ~~33/88~~
 * ~~41/88~~
-* ~~47/88
+* ~~47/88~~
+* ~~56/88
 
 ## HTML Tutorial
 * ~~18/73~~
 * ~~22/73~~
-* 29/73
+* ~~29/73~~
+* ~~37/74
+    * an additional lesson was added... also I'm 37% of the way through according to the website...
+* ~~xx/74
 <hr>
 <br>
 
@@ -58,11 +62,11 @@
     - [x] Colspan & Rowspan 
     - [x] Table Styling
     - [x] Table Colgroup
-- [ ] Lists
-    - [ ] Lists
-    - [ ] Unordered Lists
-    - [ ] Ordered Lists
-    - [ ] Other Lists
+- [x] Lists
+    - [x] Lists
+    - [x] Unordered Lists
+    - [x] Ordered Lists
+    - [x] Other Lists
 - [ ] Block & Inline
 - [ ] Classes
 - [ ] Id
