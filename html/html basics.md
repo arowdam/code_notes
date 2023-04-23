@@ -442,7 +442,7 @@
     * background-attachment
         * fixed -> coupled with a body tag you can have a set background image that doesn't leave the screen when scrolling
 
-            [tag naame] {
+            [tag name] {
                 background-repeat: no-repeat;
                 background-attachment: fixed;
                 background-size: cover;
@@ -620,7 +620,7 @@
     </table>
 
 * alignment
-    * peep instyle by the second heaader
+    * peep instyle by the second header
 <table>
         <tr>
             <th>HorHead1 and the jonts</th>
@@ -677,6 +677,134 @@
         <td>rand data6</td>
     </tr>
 </table>
+
+**Padding and spacing**
+
+<table>
+    <caption>Padding</caption>
+    <tr>
+        <th style="padding:15px">HorHead1</th>
+        <th>HorHead2</th>
+        <th>HorHead3</th>
+    </tr>
+    <tr>
+        <td>rand data1</td>
+        <td>rand data2</td>
+        <td>rand data3</td>
+    </tr>
+    <tr>
+        <td>rand data4</td>
+        <td>rand data5</td>
+        <td>rand data6</td>
+    </tr>
+</table>
+
+<table style="border:1px solid pink; border-spacing:300px;"> <!--this code just straight up doesn't work but it's okay
+        the secret to border spacing lies in the code above
+        though I'd opt for anything but inline styles next time.-->
+    <caption>Spacing</caption>
+    <tr>
+        <th>HorHead1</th>
+        <th>HorHead2</th>
+        <th>HorHead3</th>
+    </tr>
+    <tr>
+        <td>rand data1</td>
+        <td>rand data2</td>
+        <td>rand data3</td>
+    </tr>
+    <tr>
+        <td>rand data4</td>
+        <td>rand data5</td>
+        <td>rand data6</td>
+    </tr>
+</table>
+
+**Colspan and rowspan**
+
+<table>
+    <tr>
+        <th colspan="2">long</th>
+        <th>x</th>
+    </tr>
+    <tr>
+        <td>x</td>
+        <td>x</td>
+        <td>x</td>
+    </tr>
+    <tr>
+        <td>x</td>
+        <td rowspan="2">tall</td>
+        <td>x</td>
+    </tr>
+    <tr>
+        <td>x</td>
+        <td>x</td>
+    </tr>
+    <tr>
+        <td>x</td>
+        <td>x</td>
+        <td>x</td>
+    </tr>
+</table>
+
+**Styling**
+
+* zebra stripes
+            
+        tr:nth-child(even) {
+            background-color: pink;
+        }
+    * tr - sets style to table row (horizontal stripes)
+        * td/th - can be also used to make vertical stripes
+    * nth-child - selects every other element, in this case table row
+    * even - selects the even rows (2,4,6,8...)
+        * odd - is same but odd
+    * stripes can be overlapped on each other, if color chosen is transparent
+* horizontal dividers
+        
+        tr {
+            border-bottom:1px solid pink;
+        }
+    * makes it so that each row has a border beneath the given element. No boxes n such
+* hoverable table
+
+        tr:hover{background-color:pink}
+    * when mousing over a given row (tr in this case), said row will light up with the assigned background color.
+        * though it'll be colorless until hovered over.
+
+**Colgroup**
+
+    <table>
+        <colgroup>
+            <col span="2" style="background-color:pink"> 
+            <col >
+        </colgroup>
+        <tr>
+        ...
+        </tr>
+    </table>
+* colgroup is placed like but after a caption element above the other table elements
+* CSS properties 
+    * width
+    * visibility
+        * visibility:collapse; -> hides columns altogether
+    * background
+    * border
+    * **these are all the valid styles**
+* placing colgroups
+
+        <table>
+            <colgroup>
+                <col span="3">
+                <col span="2" style="background-color: pink">
+            </colgroup>
+            <tr>
+            ...</tr>
+        </table>
+    * to set a colgroup while leaving alone the initial columns, set a col span of the undesired amount, and leave it empty.
+
+
 
 <br><br><br>
 <hr>

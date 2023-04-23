@@ -49,16 +49,20 @@
     - [x] Picture Element
 - [x] Favicon
 - [x] Page Title
-- [ ] Tables
+- [x] Tables
     - [x] Tables
     - [x] Borders
     - [x] Sizes
     - [x] Headers
-    - [ ] Padding & Spacing
-    - [ ] Colspan & Rowspan 
-    - [ ] Table Styling
-    - [ ] Table Colgroup
+    - [x] Padding & Spacing
+    - [x] Colspan & Rowspan 
+    - [x] Table Styling
+    - [x] Table Colgroup
 - [ ] Lists
+    - [ ] Lists
+    - [ ] Unordered Lists
+    - [ ] Ordered Lists
+    - [ ] Other Lists
 - [ ] Block & Inline
 - [ ] Classes
 - [ ] Id
